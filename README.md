@@ -1,2 +1,3 @@
 # waka-status
-status from wakatime every week
+[//]: # (wakatime-stats)
+[//]: # (end-wakatime-stats)
