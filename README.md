@@ -1,4 +1,7 @@
-# waka-status
+# Hello Visitor! 👋
+
+You are my ![Visitor Count](https://profile-counter.glitch.me/ljs-2002/count.svg) visitor
+
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-16%20hrs%205%20mins-blue)
 
