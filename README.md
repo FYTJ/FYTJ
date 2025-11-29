@@ -1,24 +1,8 @@
 # Hello Visitor! 👋
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-822%20hrs%2043%20mins-blue)
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Asia/Shanghai
-
-💬 Programming Languages: 
-C                        15 hrs 53 mins      ██████████████░░░░░░░░░░░   56.92 % 
-Other                    3 hrs 33 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.76 % 
-Assembly                 2 hrs 2 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.32 % 
-LaTeX                    1 hr 37 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.81 % 
-Python                   1 hr 14 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.47 % 
-
-💻 Operating System: 
-Mac                      27 hrs 55 mins      █████████████████████████   100.00 % 
-```
+![Code Time](http://img.shields.io/badge/Code%20Time-829%20hrs%2058%20mins-blue)
 
 
- Last Updated on 28/11/2025 01:12:38 UTC
+ Last Updated on 29/11/2025 01:12:44 UTC
 <!--END_SECTION:waka-->
