@@ -2,13 +2,33 @@ name: Waka Readme
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 * * *' # 北京时间 02:30
   workflow_dispatch:
+
+permissions:
+  contents: write
+
 jobs:
   update-readme:
     name: Update Readme with Metrics
     runs-on: ubuntu-latest
     steps:
+      - name: Wait for WakaTime stats
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          for endpoint in "users/current/stats/last_7_days" "users/current/all_time_since_today"; do
+            for i in {1..10}; do
+              code=$(curl -sS -o /tmp/waka.json -w "%{http_code}" \
+                "https://wakatime.com/api/v1/${endpoint}?api_key=${WAKATIME_API_KEY}")
+              [ "$code" = "200" ] && break
+              [ "$code" != "202" ] && echo "WakaTime returned HTTP $code" && exit 1
+              sleep 60
+            done
+          done
+
       - uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
@@ -24,3 +44,6 @@ jobs:
           SHOW_TOTAL_CODE_TIME: "True"
           SHOW_SHORT_INFO: "False"
           SHOW_LOC_CHART: "False"
+          SHOW_LANGUAGE: "True"
+          SHOW_OS: "True"
+          DEBUG_LOGGING: "True"
