@@ -1,7 +1,7 @@
 # Hello Visitor! 👋
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C783%20hrs%203%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C795%20hrs%2051%20mins-blue?style=flat)
 
 📊 **This Week I Spent My Time On** 
 
@@ -9,16 +9,16 @@
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-Python                   34 hrs              ██████████████░░░░░░░░░░░   54.58 % 
-Markdown                 10 hrs 35 mins      ████░░░░░░░░░░░░░░░░░░░░░   16.99 % 
-Other                    4 hrs 55 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   07.89 % 
-C++                      2 hrs 33 mins       █░░░░░░░░░░░░░░░░░░░░░░░░   04.10 % 
-Rust                     2 hrs 3 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   03.30 % 
+Python                   31 hrs 9 mins       █████████████░░░░░░░░░░░░   51.18 % 
+Markdown                 10 hrs 2 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.49 % 
+Other                    6 hrs               ██░░░░░░░░░░░░░░░░░░░░░░░   09.88 % 
+C++                      5 hrs 9 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.47 % 
+JavaScript               1 hr 58 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   03.23 % 
 
 💻 Operating System: 
-Mac                      62 hrs 18 mins      █████████████████████████   100.00 % 
+Mac                      60 hrs 53 mins      █████████████████████████   100.00 % 
 ```
 
 
- Last Updated on 05/07/2026 02:39:15 UTC
+ Last Updated on 06/07/2026 02:44:10 UTC
 <!--END_SECTION:waka-->
